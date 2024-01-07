@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <center>
+      <h1><u>User Registration Form</u></h1>
+    </center>
+    <br />
+    <br />
+    <br />
+    <form>
+        <label >First Name:</label>
+        <input type="text" name="First Name" required />
+    </form>
+    <br />
+    <form>
+        <label >Last Name:</label>
+        <input type="text" name="Last Name" required />
+    </form>
+    <br />
+    <form>
+        <label >Password:</label>
+        <input type="password" maxlength="50" required />
+    </form>
+    <br />
+    <br />
+    <form>
+      <b>Bio:</b>
+      <textarea name="Bio" id="bio" cols="80" rows="6"></textarea>
+    </form>
+    <br />
+    <br />
+    <form>
+      <fieldset>
+        <legend><b>Gender</b></legend>
+        <p>
+          <input required type="radio" name="Gender" value="Male" Male /> Male
+          <br />
+          <input required type="radio" name="Gender" value="Female" Female />
+          Female
+        </p>
+      </fieldset>
+      <br /><br />
+    </form>
+    <form>
+      <fieldset>
+        <legend><b>Interest</b></legend>
+        <p>
+          <input required type="radio" name="Interest" value="Reading" />
+          Reading <br />
+          <input required type="radio" name="Interest" value="Sports" /> Sports
+          <br />
+          <input required type="radio" name="Interest" value="Music" /> Music
+          <br />
+        </p>
+      </fieldset>
+    </form> <br>
+    <form>
+        <label >Country</label>
+      <select name="Country" id="Country">
+        <option value="Pakistan" selected>Pakistan</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+        <option value="Bangladesh">Bangladesh</option>
+      </select>
+    </form>
+    <br />
+    <br />
+    <form>
+        <label >Your Picture</label>
+      <input type="file" name="Picture" required accept="image/*" />
+    </form>
+    <br />
+    <br />
+    <form><label >birthdate</label> <input type="date" required /></form>
+    <form>
+      <br />
+      <br />
+      <label >Email:</label> <input type="email" name="email" required />
+    </form>
+    <br /><br />
+    <button>Submit</button>
+  </body>
+</html>
